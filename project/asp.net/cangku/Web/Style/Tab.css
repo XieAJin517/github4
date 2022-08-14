@@ -1,0 +1,72 @@
+.tab_selected
+{
+	background: url(../Images/tabimg.gif) no-repeat left top;
+	width:103px;
+	float:left;
+	cursor:hand;
+	padding-left:20px;
+	padding-top:6px;
+	font-weight: bold;
+}
+
+.tab_normal
+{	
+	background-image:none;
+	border-bottom:1px solid #808080;	
+	width:103px;
+	float:left;
+	cursor:hand;
+	padding-left:25px;
+	padding-top:4px;		
+}
+.tab_other{
+	width:600px;
+	float:right;
+	background-color:#D4D4D4;
+	border-bottom:1px solid #808080;
+}
+.tabbody{
+	border-left:1px solid #808080;
+	border-right:1px solid #808080;
+	border-bottom:1px solid #808080;
+	table-layout:fixed;
+	word-wrap:break-word;
+	word-break:break-all;
+	margin-bottom:1px;
+	width: 100%;
+	height: 100%;	
+	background:url(../Images/tabfrmbg.gif);
+	padding:3px;
+	padding-bottom:11px;
+}
+.tabfrm{
+	width:100%;
+	height:100%;
+	background:#FFFFFF;
+	border:1px solid #aaaaaa;
+	
+}
+.FrmStyle{width:100%; height:100%;margin:2px;}
+/*Tab*/
+.tabLeftFirstOn{ height:45px; width:22px; background:url(../Images/TabImages/tabLeftFirstOn.gif) no-repeat;}
+.tabLeftFirstOff{ height:45px; width:22px; background:url(../Images/TabImages/tabLeftFirstOff.gif) no-repeat;}
+
+.tabStripeOn{background:url(../Images/TabImages/tabStripeOn.gif) repeat-x; width:70px; padding-left:5px;font-weight:bold; vertical-align:top; padding-top:8px; cursor:hand;}
+.tabStripeOff{background:url(../Images/TabImages/tabStripeOff.gif) repeat-x; width:70px;padding-left:5px;vertical-align:top; padding-top:8px; cursor:hand;}
+
+.tabMiddleOffOff{ width:19px; background:url(../Images/TabImages/tabMiddleOffOff.gif) no-repeat;}
+.tabMiddleOffOn{width:19px; background:url(../Images/TabImages/tabMiddleOffOn.gif) no-repeat;}
+.tabMiddleOnOff{width:19px; background:url(../Images/TabImages/tabMiddleOnOff.gif) no-repeat;}
+
+.tabRightLastOff{width:16px; background:url(../Images/TabImages/tabRightLastOff.gif) no-repeat;}
+.tabRightLastOn{width:16px; background:url(../Images/TabImages/tabRightLastOn.gif) no-repeat;}
+
+.tabOtherRight{ background:url(../Images/TabImages/tabOtherRight.gif) repeat-x;}
+.tabRightRight{ background:url(../Images/TabImages/tabRightRight.gif) no-repeat; width:22px;}
+
+.tabMiddleLeft{ width:22px; background:url(../Images/TabImages/tabMiddleLeft.gif) repeat-y;}
+.tabMiddleRight{width:22px;background:url(../Images/TabImages/tabMiddleRight.gif) repeat-y; text-align:right;}
+.tabMiddleContent{ background:#FFFFFF;}
+.tabFootLeft{ width:22px; height:34px; background:url(../Images/TabImages/tagFootLeft.gif) no-repeat;}
+.tabFootBg{background:url(../Images/TabImages/tagFootBg.gif) repeat-x;}
+.tabFootRight{width:22px; height:34px; background:url(../Images/TabImages/tagFootRight.gif) no-repeat;}

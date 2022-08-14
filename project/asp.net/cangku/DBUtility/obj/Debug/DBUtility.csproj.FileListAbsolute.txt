@@ -1,0 +1,11 @@
+F:\临时\40s\AcomStore2.0\DBUtility\bin\Debug\AcomLb.DBUtility.dll
+F:\临时\40s\AcomStore2.0\DBUtility\bin\Debug\AcomLb.DBUtility.pdb
+F:\临时\40s\AcomStore2.0\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+F:\临时\40s\AcomStore2.0\DBUtility\obj\Debug\AcomLb.DBUtility.dll
+F:\临时\40s\AcomStore2.0\DBUtility\obj\Debug\AcomLb.DBUtility.pdb
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\DBUtility\bin\Debug\AcomLb.DBUtility.dll
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\DBUtility\bin\Debug\AcomLb.DBUtility.pdb
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\DBUtility\obj\Debug\DBUtility.csproj.AssemblyReference.cache
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\DBUtility\obj\Debug\DBUtility.csproj.CoreCompileInputs.cache
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\DBUtility\obj\Debug\AcomLb.DBUtility.dll
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\DBUtility\obj\Debug\AcomLb.DBUtility.pdb

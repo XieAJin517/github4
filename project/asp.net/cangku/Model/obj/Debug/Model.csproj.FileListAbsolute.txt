@@ -1,0 +1,10 @@
+F:\临时\40s\AcomStore2.0\Model\bin\Debug\AcomLb.Model.dll
+F:\临时\40s\AcomStore2.0\Model\bin\Debug\AcomLb.Model.pdb
+F:\临时\40s\AcomStore2.0\Model\obj\Debug\ResolveAssemblyReference.cache
+F:\临时\40s\AcomStore2.0\Model\obj\Debug\AcomLb.Model.dll
+F:\临时\40s\AcomStore2.0\Model\obj\Debug\AcomLb.Model.pdb
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Model\bin\Debug\AcomLb.Model.dll
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Model\bin\Debug\AcomLb.Model.pdb
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Model\obj\Debug\AcomLb.Model.dll
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Model\obj\Debug\AcomLb.Model.pdb

@@ -1,0 +1,7 @@
+bin\Release\AcomLb.Components.dll
+bin\Release\AcomLb.Components.pdb
+bin\Release\AcomLb.Enumerations.dll
+bin\Release\AcomLb.Enumerations.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\AcomLb.Components.dll
+obj\Release\AcomLb.Components.pdb

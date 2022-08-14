@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+
+  <Node Text="基本数据" ImageUrl="" NavigateUrl="" Expand="true">
+    <Node Text="产品栏目设置"  NavigateUrl="ClassList.aspx?ClassKind=1"/>
+    <Node Text="往来单位管理"  NavigateUrl="CorpList.aspx"/>
+    <Node Text="产品信息管理"  NavigateUrl="ProductList.aspx"/>
+    </Node>
+  <Node Text="入库单" ImageUrl="" NavigateUrl="" Expand="true">
+    <Node Text="添加入库单"  NavigateUrl="InStore.aspx?billType=10"/>
+    <Node Text="入库单管理"  NavigateUrl="InStoreList.aspx?billType=10"/>
+    <Node Text="查询统计"  NavigateUrl="InStoreStat.aspx?billType=10"/>
+  </Node>
+  <Node Text="出库单" ImageUrl="" NavigateUrl="" Expand="true">
+    <Node Text="添加出库单"  NavigateUrl="InStore.aspx?billType=20"/>
+    <Node Text="出库单管理"  NavigateUrl="InStoreList.aspx?billType=20"/>
+    <Node Text="查询统计"  NavigateUrl="InStoreStat.aspx?billType=20"/>
+  </Node>
+  <Node Text="退货单" ImageUrl="" NavigateUrl="" Expand="true">
+    <Node Text="添加退货单"  NavigateUrl="OutStore.aspx?billType=30"/>
+    <Node Text="退货单管理"  NavigateUrl="InStoreList.aspx?billType=30"/>
+    <Node Text="查询统计"  NavigateUrl="InStoreStat.aspx?billType=30"/>
+  </Node>
+  <Node Text="系统管理" ImageUrl="" NavigateUrl="" Expand="false">
+    <Node Text="备份数据库"  NavigateUrl="DataBack.aspx"/>
+  </Node>
+</Root>

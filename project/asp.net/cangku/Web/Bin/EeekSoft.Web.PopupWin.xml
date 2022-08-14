@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EeekSoft.Web.PopupWin</name>
+    </assembly>
+    <members>
+        <member name="T:EeekSoft.Web.PopupWin">
+            <summary>
+            Popup window control
+            </summary>
+        </member>
+        <member name="M:EeekSoft.Web.PopupWin.#ctor">
+            <summary>
+            Initialize script, styles and colors
+            </summary>
+        </member>
+        <member name="M:EeekSoft.Web.PopupWin.ColorToString(System.Drawing.Color)">
+            <summary>
+            Convert color to string (no color names !)
+            </summary>
+            <param name="color">Color</param>
+            <returns>String (without # prefix)</returns>
+        </member>
+        <member name="M:EeekSoft.Web.PopupWin.ColorFromString(System.String)">
+            <summary>
+            Convert string in RRGGBB format to Gdi+ color
+            </summary>
+            <param name="str">String to convert</param>
+            <returns>Gdi+ color</returns>
+        </member>
+        <member name="M:EeekSoft.Web.PopupWin.PutColors(System.String)">
+            <summary>
+            Replace {0}..{10} with colors
+            </summary>
+            <param name="html">Html source</param>
+        </member>
+        <member name="M:EeekSoft.Web.PopupWin.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Render this control to the output parameter specified.
+            </summary>
+            <param name="output"> The HTML writer to write out to </param>
+        </member>
+        <member name="M:EeekSoft.Web.PopupWin.GetWinText(System.String,System.String)">
+            <summary>
+            Generate html code to show in new window
+            </summary>
+            <param name="title">Title</param>
+            <param name="text">Text</param>
+            <returns>Html code for new window</returns>
+        </member>
+        <member name="M:EeekSoft.Web.PopupWin.GetDesignCode">
+            <summary>
+            Returns html code for designer
+            </summary>
+        </member>
+        <member name="M:EeekSoft.Web.PopupWin.RaisePostBackEvent(System.String)">
+            <summary>
+            Raise event
+            </summary>
+            <param name="eventArgument">Closed or clicked on link ?</param>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.ActionType">
+            <summary>
+            Get or set type of action
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.Text">
+            <summary>
+            Get or set text to display in new window 
+            (when user clicked on popup window)
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.Link">
+            <summary>
+            Get or set adress/javascript to open when link is clicked
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.LinkTarget">
+            <summary>
+            Get or set target for specified link
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.ColorStyle">
+            <summary>
+            Get or set predefined color style
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.Message">
+            <summary>
+            Get or set message to display in popup window
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.Title">
+            <summary>
+            Get or set title to display in popup window and new window
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.GradientLight">
+            <summary>
+            Get or set ligh Gradient color
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.GradientDark">
+            <summary>
+            Get or set dark gradient color (Background in Mozilla)
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.TextColor">
+            <summary>
+            Get or set text color
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.LightShadow">
+            <summary>
+            Get or set light shadow color
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.DarkShadow">
+            <summary>
+            Get or set dark shadow color
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.Shadow">
+            <summary>
+            Get or set shadow color
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.DockMode">
+            <summary>
+            Get or set popup window docking
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.OffsetX">
+            <summary>
+            Get or set x offset
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.OffsetY">
+            <summary>
+            Get or set y offset
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.HideAfter">
+            <summary>
+            Get or set how long will window be displayed
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.PopupSpeed">
+            <summary>
+            Get or set how fast will showing of popup be
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.ShowAfter">
+            <summary>
+            Get or set delay before displaying popup control
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.AutoShow">
+            <summary>
+            Automaticly show popup when page loads (after ShowAfter miliseconds).
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.DragDrop">
+            <summary>
+            Get or set wether user can move popup element
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.WindowSize">
+            <summary>
+            Get or set window size
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.WindowScroll">
+            <summary>
+            Get or set window scrollbars
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWin.ShowLink">
+            <summary>
+            Generate link inside popup ?
+            </summary>
+        </member>
+        <member name="E:EeekSoft.Web.PopupWin.LinkClicked">
+            <summary>
+            User clicked on link on popup box
+            </summary>
+        </member>
+        <member name="E:EeekSoft.Web.PopupWin.PopupClosed">
+            <summary>
+            User clicked on 'X' on popup box.
+            </summary>
+        </member>
+        <member name="T:EeekSoft.Web.PopupWinDesigner">
+            <summary>
+            Class for displaying PopupWin in designer
+            </summary>
+        </member>
+        <member name="M:EeekSoft.Web.PopupWinDesigner.GetDesignTimeHtml">
+            <summary>
+            Returns HTML code to show in designer
+            </summary>
+        </member>
+        <member name="T:EeekSoft.Web.PopupColorStyle">
+            <summary>
+            Predefined color style
+            </summary>
+        </member>
+        <member name="F:EeekSoft.Web.PopupColorStyle.Blue">
+            <summary> Blue style (default) </summary>
+        </member>
+        <member name="F:EeekSoft.Web.PopupColorStyle.Red">
+            <summary> Red style </summary>
+        </member>
+        <member name="F:EeekSoft.Web.PopupColorStyle.Green">
+            <summary> Green style </summary>
+        </member>
+        <member name="F:EeekSoft.Web.PopupColorStyle.Violet">
+            <summary> Violet style </summary>
+        </member>
+        <member name="F:EeekSoft.Web.PopupColorStyle.Custom">
+            <summary> Custom style - defined by colors </summary>
+        </member>
+        <member name="T:EeekSoft.Web.PopupDocking">
+            <summary>
+            Popup window docking
+            </summary>
+        </member>
+        <member name="F:EeekSoft.Web.PopupDocking.BottomLeft">
+            <summary> Control is docked to left and bottom </summary>
+        </member>
+        <member name="F:EeekSoft.Web.PopupDocking.BottomRight">
+            <summary> Control is docked to right and bottom </summary>
+        </member>
+        <member name="T:EeekSoft.Web.PopupAction">
+            <summary>
+            Action to do after user clicked on link
+            </summary>
+        </member>
+        <member name="F:EeekSoft.Web.PopupAction.RaiseEvents">
+            <summary> Raise server events </summary>
+        </member>
+        <member name="F:EeekSoft.Web.PopupAction.MessageWindow">
+            <summary> Open new browser window with text message </summary>
+        </member>
+        <member name="F:EeekSoft.Web.PopupAction.OpenLink">
+            <summary> Open link or javascript script </summary>
+        </member>
+        <member name="T:EeekSoft.Web.PopupWinAnchor">
+            <summary>
+            Popup window anchor control
+            </summary>
+        </member>
+        <member name="M:EeekSoft.Web.PopupWinAnchor.#ctor">
+            <summary>
+            Create control
+            </summary>
+        </member>
+        <member name="M:EeekSoft.Web.PopupWinAnchor.Render(System.Web.UI.HtmlTextWriter)">
+            <summary> 
+            Render script for displaying popup control
+            </summary>
+            <param name="output">The HTML writer to write out to</param>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWinAnchor.ChangeTexts">
+            <summary>
+            Should texts on PopupWin be replaced with new texts ?
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWinAnchor.NewMessage">
+            <summary>
+            New message text
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWinAnchor.NewTitle">
+            <summary>
+            New popup title text
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWinAnchor.NewText">
+            <summary>
+            New text to show in opened window
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWinAnchor.HandledEvent">
+            <summary>
+            JavaScript event to handle
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWinAnchor.PopupToShow">
+            <summary>
+            Popup control to show when event occurs
+            </summary>
+        </member>
+        <member name="P:EeekSoft.Web.PopupWinAnchor.LinkedControl">
+            <summary>
+            Contol which event will cause the popup to show
+            </summary>
+        </member>
+        <member name="T:EeekSoft.Web.AnchorDesigner">
+            <summary>
+            Class for displaying PopupWin in designer
+            </summary>
+        </member>
+        <member name="M:EeekSoft.Web.AnchorDesigner.GetDesignTimeHtml">
+            <summary>
+            Returns HTML code to show in designer
+            </summary>
+        </member>
+        <member name="T:EeekSoft.Web.JavaScriptEventEditor">
+            <summary>
+            Editor for selecting JavaScript event
+            </summary>
+        </member>
+        <member name="M:EeekSoft.Web.JavaScriptEventEditor.EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)">
+            <summary>
+            Overrides the method used to provide basic behaviour for selecting editor.
+            Shows our custom control for editing the value.
+            </summary>
+            <param name="context">The context of the editing control</param>
+            <param name="provider">A valid service provider</param>
+            <param name="value">The current value of the object to edit</param>
+            <returns>The new value of the object</returns>
+        </member>
+        <member name="M:EeekSoft.Web.JavaScriptEventEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)">
+            <summary>
+            Choose editor type
+            </summary>
+            <param name="context">The context of the editing control</param>
+            <returns>Returns <c>UITypeEditorEditStyle.DropDown</c></returns>
+        </member>
+        <member name="M:EeekSoft.Web.JavaScriptEventEditor.lb_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Close the dropdowncontrol when the user has selected a value
+            </summary>
+        </member>
+        <member name="T:EeekSoft.Web.ControlsEditor">
+            <summary>
+            Editor for selecting controls from Asp.Net page
+            </summary>
+        </member>
+        <member name="M:EeekSoft.Web.ControlsEditor.#ctor(System.Type)">
+            <summary>
+            onstructor - show specified types
+            </summary>
+            <param name="show">Type descriptor</param>
+        </member>
+        <member name="M:EeekSoft.Web.ControlsEditor.EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)">
+            <summary>
+            Overrides the method used to provide basic behaviour for selecting editor.
+            Shows our custom control for editing the value.
+            </summary>
+            <param name="context">The context of the editing control</param>
+            <param name="provider">A valid service provider</param>
+            <param name="value">The current value of the object to edit</param>
+            <returns>The new value of the object</returns>
+        </member>
+        <member name="M:EeekSoft.Web.ControlsEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)">
+            <summary>
+            Choose editor type
+            </summary>
+            <param name="context">The context of the editing control</param>
+            <returns>Returns <c>UITypeEditorEditStyle.DropDown</c></returns>
+        </member>
+        <member name="M:EeekSoft.Web.ControlsEditor.lb_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Close the dropdowncontrol when the user has selected a value
+            </summary>
+        </member>
+        <member name="T:EeekSoft.Web.AllControlsEditor">
+            <summary>
+            Editor for selecting all Asp.Net controls
+            </summary>
+        </member>
+        <member name="M:EeekSoft.Web.AllControlsEditor.#ctor">
+            <summary>
+            Invoke base constructor
+            </summary>
+        </member>
+        <member name="T:EeekSoft.Web.PopupControlsEditor">
+            <summary>
+            Editor for selecting PopupWin controls
+            </summary>
+        </member>
+        <member name="M:EeekSoft.Web.PopupControlsEditor.#ctor">
+            <summary>
+            Invoke base constructor
+            </summary>
+        </member>
+    </members>
+</doc>

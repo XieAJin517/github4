@@ -1,0 +1,5 @@
+bin\Release\AcomLb.DBUtility.dll
+bin\Release\AcomLb.DBUtility.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\AcomLb.DBUtility.dll
+obj\Release\AcomLb.DBUtility.pdb

@@ -1,0 +1,16 @@
+F:\临时\40s\AcomStore2.0\Components\bin\Debug\AcomLb.Components.dll
+F:\临时\40s\AcomStore2.0\Components\bin\Debug\AcomLb.Components.pdb
+F:\临时\40s\AcomStore2.0\Components\bin\Debug\AcomLb.Enumerations.dll
+F:\临时\40s\AcomStore2.0\Components\bin\Debug\AcomLb.Enumerations.pdb
+F:\临时\40s\AcomStore2.0\Components\obj\Debug\ResolveAssemblyReference.cache
+F:\临时\40s\AcomStore2.0\Components\obj\Debug\AcomLb.Components.dll
+F:\临时\40s\AcomStore2.0\Components\obj\Debug\AcomLb.Components.pdb
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Components\bin\Debug\AcomLb.Components.dll
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Components\bin\Debug\AcomLb.Components.pdb
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Components\bin\Debug\AcomLb.Enumerations.dll
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Components\bin\Debug\AcomLb.Enumerations.pdb
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Components\obj\Debug\Components.csproj.AssemblyReference.cache
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Components\obj\Debug\Components.csproj.CoreCompileInputs.cache
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Components\obj\Debug\Components.csproj.CopyComplete
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Components\obj\Debug\AcomLb.Components.dll
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Components\obj\Debug\AcomLb.Components.pdb

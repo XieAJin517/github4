@@ -1,0 +1,5 @@
+bin\Release\AcomLb.Model.dll
+bin\Release\AcomLb.Model.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\AcomLb.Model.dll
+obj\Release\AcomLb.Model.pdb

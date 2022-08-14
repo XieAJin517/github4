@@ -1,0 +1,11 @@
+F:\临时\40s\AcomStore2.0\Enumerations\bin\Debug\AcomLb.Enumerations.dll
+F:\临时\40s\AcomStore2.0\Enumerations\bin\Debug\AcomLb.Enumerations.pdb
+F:\临时\40s\AcomStore2.0\Enumerations\obj\Debug\ResolveAssemblyReference.cache
+F:\临时\40s\AcomStore2.0\Enumerations\obj\Debug\AcomLb.Enumerations.dll
+F:\临时\40s\AcomStore2.0\Enumerations\obj\Debug\AcomLb.Enumerations.pdb
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Enumerations\bin\Debug\AcomLb.Enumerations.dll
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Enumerations\bin\Debug\AcomLb.Enumerations.pdb
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Enumerations\obj\Debug\Enumerations.csproj.AssemblyReference.cache
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Enumerations\obj\Debug\Enumerations.csproj.CoreCompileInputs.cache
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Enumerations\obj\Debug\AcomLb.Enumerations.dll
+C:\Users\hahaha\Desktop\aspx.net\Acom进出仓管理系统源码\Enumerations\obj\Debug\AcomLb.Enumerations.pdb
